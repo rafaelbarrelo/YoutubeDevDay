@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="styles/index.css"/>
     <!--endbuild-->        
     <!--build:js({.tmp,app}) scripts/custom.js-->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.2/angular.min.js"></script>
     <script src="scripts/index.js"></script>
     <!--endbuild-->
   </head>
@@ -23,17 +23,19 @@
     <div ng-controller="YoutubeCTRL">      
 
       <p> Hello World!</p>
+      <div>selections = {{option.i}}</div>
 
       <div>
         <label>Name:</label>
         <input type="text" ng-model="yourSearch" placeholder="Enter a name here">
-        <hr>
-        <h1>Hello {{yourSearch}}!</h1>
       </div>
 
-      <p> {{data.categories.items.title}} </p>
+      <select ng-model="form.select" ng-options="option.id as option.snippet.title for option in data"></select>
 
-      <iframe width="560" height="315" ng-src="{{youtubeURL}}" frameborder="0" allowfullscreen></iframe>
+<!--       <ul ng-repeat="videos in data  | filter:yourSearch">
+        <li>{{videos.id}} - {{videos.snippet.title}}</li>
+      </ul>
+ -->
 
     </div>
   </body>

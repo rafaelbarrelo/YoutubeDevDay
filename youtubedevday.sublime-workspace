@@ -419,23 +419,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1352,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "styles/index.css",
-			"settings":
-			{
-				"buffer_size": 50,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "scripts/index.js",
-			"settings":
-			{
-				"buffer_size": 714,
+				"buffer_size": 1448,
 				"line_ending": "Unix"
 			}
 		}
@@ -476,6 +460,7 @@
 	},
 	"file_history":
 	[
+		"/Users/indigo/Projects/YoutubeDevDay/scripts/index.js",
 		"/Users/indigo/Projects/YoutubeDevDay/styles/index.css",
 		"/Users/indigo/Projects/npc-mobile/angular/app/scripts/config/pontofrio/web/debug.coffee",
 		"/Users/indigo/Projects/npc-mobile/angular/app/scripts/tq/services/tq-cookie.coffee",
@@ -602,8 +587,7 @@
 		"/Users/indigo/Projects/npc-mobile/angular/app/scripts/controllers/pagamento/cartao-paodeacucar.coffee",
 		"/Users/indigo/Projects/npc-mobile/angular/app/scripts/controllers/pagamento/cartao-credito.coffee",
 		"/Users/indigo/Projects/npc-mobile/angular/app/scripts/controllers/pagamento/boleto.coffee",
-		"/Users/indigo/Projects/npc-mobile/angular/app/scripts/controllers/pagamento/agendamento.coffee",
-		"/Users/indigo/Projects/npc-mobile/angular/.tmp/scripts/directives/iscroll.js"
+		"/Users/indigo/Projects/npc-mobile/angular/app/scripts/controllers/pagamento/agendamento.coffee"
 	],
 	"find":
 	{
@@ -631,6 +615,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"video",
+			"cat_videos",
+			"data",
 			"successCallback",
 			"yourName",
 			"yourSearch",
@@ -755,10 +742,7 @@
 			"Pontofrio",
 			"child",
 			"quantidade",
-			".produto-imagem",
-			"descricao",
-			"left-container",
-			"li"
+			".produto-imagem"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -780,7 +764,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -788,15 +772,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 1352,
+						"buffer_size": 1448,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1204,
-								1204
+								874,
+								874
 							]
 						],
 						"settings":
@@ -804,58 +788,6 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "styles/index.css",
-					"settings":
-					{
-						"buffer_size": 50,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3,
-								3
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "scripts/index.js",
-					"settings":
-					{
-						"buffer_size": 714,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								431,
-								443
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
