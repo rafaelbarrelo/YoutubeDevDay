@@ -11,30 +11,39 @@
     <link rel="shortcut icon" href="/favicon.ico">
     <!--build:css({.tmp,app}) styles/main.css-->
     <link rel="stylesheet" href="styles/index.css"/>
+    <link rel="stylesheet" href="styles/card.css"/>
     <!--endbuild-->        
     <!--build:js({.tmp,app}) scripts/custom.js-->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.2/angular.min.js"></script>
     <script src="scripts/index.js"></script>
     <!--endbuild-->
   </head>
   <body ng-app="">
   <!--endbuild-->
 
-    <div ng-controller="YoutubeCTRL">      
+    <div ng-controller="YoutubeCTRL"> 
 
-      <p> Hello World!</p>
+      <div class="card" ng-repeat="videos in data">
+        <div class="cardTitle">
+          Android Authority
+        </div>
+        
+        <div class="cardMain">
+          <div class="cardImage" >
+            <img src=""
+             alt="Android Authority" />
+          </div>
+          <div class="cardDesc" >
+            {{videos.snippet.title}}
+          </div>
+        </div>
 
-      <div>
-        <label>Name:</label>
-        <input type="text" ng-model="yourSearch" placeholder="Enter a name here">
-        <hr>
-        <h1>Hello {{yourSearch}}!</h1>
+        <div class="cardFooter">
+          <span class="canal">Canal: AndroidAuthority</span>
+          <span class="data">Data: 2011-04-03T15:19:11.000Z</span>
+        </div>
+
       </div>
-
-      <p> {{data.categories.items.title}} </p>
-
-      <iframe width="560" height="315" ng-src="{{youtubeURL}}" frameborder="0" allowfullscreen></iframe>
-
-    </div>
+      
   </body>
 </html>
