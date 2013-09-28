@@ -20,21 +20,27 @@
   <body ng-app="">
   <!--endbuild-->
 
-    <div ng-controller="YoutubeCTRL">      
+    <div ng-controller="YoutubeCTRL"> 
+      <div class="card" ng-repeat="videos in data">
+        <div class="cardTitle">
+          Android Authority
+        </div>
+        
+        <div class="cardMain">
+          <div class="cardImage" >
+            <img src="https://lh4.googleusercontent.com/-w2HF7PFK7bM/AAAAAAAAAAI/AAAAAAAAAAA/Zgt9DsWYKXg/photo.jpg"
+             alt="Android Authority" />
+          </div>
+          <div class="cardDesc" >
+            {{videos.snippet.title}}
+          </div>
+        </div>
 
-      <p> Hello World!</p>
-
-      <div>
-        <label>Name:</label>
-        <input type="text" ng-model="yourSearch" placeholder="Enter a name here">
-        <hr>
-        <h1>Hello {{yourSearch}}!</h1>
+        <div class="cardFooter">
+          <span class="canal">Canal: AndroidAuthority</span>
+          <span class="data">Data: 2011-04-03T15:19:11.000Z</span>
+        </div>
       </div>
-
-      <p> {{data.categories.items.title}} </p>
-
-      <iframe width="560" height="315" ng-src="{{youtubeURL}}" frameborder="0" allowfullscreen></iframe>
-
-    </div>
+      
   </body>
 </html>
