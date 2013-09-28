@@ -1,0 +1,64 @@
+body {
+	font-family: Verdana, Arial, Sans-serif;
+	background: #F5F5F5;
+}
+.card{
+	margin: 30px auto;
+	padding: 3px;
+	border: 1px #8B2323 solid;
+	width: 600px;
+	background: #FFF;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+.card:hover{
+	box-shadow: 0px 10px 15px #CCC;
+	-webkit-box-shadow: 0px 10px 15px #CCC;
+	-moz-box-shadow: 0px 10px 15px #CCC;
+	cursor: pointer;
+}
+.cardTitle{
+	font-size: 20px;
+	text-align: left;
+	color: #CD5C5C;
+	border-bottom: 1px #BC8F8F solid;
+	padding: 3px;
+	padding-bottom: 5px;
+	font-weight: bold;
+	word-wrap:break-word;
+}
+.cardMain{
+	padding: 3px;
+	border-bottom: 1px #BC8F8F solid;
+	height: 185px;
+}
+.cardImage{
+	padding: 3px;
+	padding-right: 1px;
+	float: left;
+	width: 44%;
+}
+img{
+	height: 180px;
+}
+.cardDesc{
+	padding: 3px;
+	padding-left: 1px;	
+	float: right;
+	width: 44%;
+	word-wrap:break-word;
+	font-size: 15px;
+	height: 180px;	
+}
+.cardFooter{
+	color: #CD5C5C;
+	clear: both;
+	font-size: 9px;
+	padding: 3px;
+	text-align: right;
+	font-weight: bold;
+}
+span{
+	display: block;
+}
