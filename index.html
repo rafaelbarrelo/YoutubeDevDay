@@ -11,9 +11,10 @@
     <link rel="shortcut icon" href="/favicon.ico">
     <!--build:css({.tmp,app}) styles/main.css-->
     <link rel="stylesheet" href="styles/index.css"/>
+    <link rel="stylesheet" href="styles/card.css"/>
     <!--endbuild-->        
     <!--build:js({.tmp,app}) scripts/custom.js-->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.2/angular.min.js"></script>
     <script src="scripts/index.js"></script>
     <!--endbuild-->
   </head>
@@ -21,6 +22,7 @@
   <!--endbuild-->
 
     <div ng-controller="YoutubeCTRL"> 
+
       <div class="card" ng-repeat="videos in data">
         <div class="cardTitle">
           Android Authority
@@ -28,7 +30,7 @@
         
         <div class="cardMain">
           <div class="cardImage" >
-            <img src="https://lh4.googleusercontent.com/-w2HF7PFK7bM/AAAAAAAAAAI/AAAAAAAAAAA/Zgt9DsWYKXg/photo.jpg"
+            <img src=""
              alt="Android Authority" />
           </div>
           <div class="cardDesc" >
@@ -40,6 +42,7 @@
           <span class="canal">Canal: AndroidAuthority</span>
           <span class="data">Data: 2011-04-03T15:19:11.000Z</span>
         </div>
+
       </div>
       
   </body>

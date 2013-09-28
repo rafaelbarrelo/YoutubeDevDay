@@ -419,7 +419,23 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1448,
+				"buffer_size": 1606,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scripts/index.js",
+			"settings":
+			{
+				"buffer_size": 627,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "card.html",
+			"settings":
+			{
+				"buffer_size": 1982,
 				"line_ending": "Unix"
 			}
 		}
@@ -615,6 +631,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"spinnept",
 			"video",
 			"cat_videos",
 			"data",
@@ -741,8 +758,7 @@
 			"console.log",
 			"Pontofrio",
 			"child",
-			"quantidade",
-			".produto-imagem"
+			"quantidade"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -772,15 +788,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 1448,
+						"buffer_size": 1606,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								874,
-								874
+								540,
+								540
 							]
 						],
 						"settings":
@@ -791,6 +807,61 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "scripts/index.js",
+					"settings":
+					{
+						"buffer_size": 627,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								590,
+								590
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "card.html",
+					"settings":
+					{
+						"buffer_size": 1982,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1231,
+								678
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 142.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
